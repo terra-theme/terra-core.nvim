@@ -45,7 +45,7 @@
 ---@field none                                    string
 
 -------------------------------------------Config
----@alias Season                                  "spring" | "summer" | "fall" | "winter"
+---@alias Season                                  "spring" | "summer" | "fall" | "winter" | "iceland"
 ---@alias Time                                    "day" | "night"
 
 ---@class CodeStyleFormat

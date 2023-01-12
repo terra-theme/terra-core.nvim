@@ -11,6 +11,10 @@ local themes = {
         night = require("terra.themes.summer.night").highlights,
         day = require("terra.themes.summer.day").highlights,
     },
+    iceland = {
+        night = require("terra.themes.iceland.night").highlights,
+        day = require("terra.themes.iceland.day").highlights,
+    },
 }
 
 local M = {}

@@ -4,6 +4,7 @@ local M = {}
 M.seasons = {
     "spring",
     "summer",
+    "iceland",
 }
 
 ---@type TerraConfig
@@ -16,6 +17,7 @@ M.default_config = {
         summer = "",
         fall = "",
         winter = "",
+        iceland = "",
     },
 
     select_season = "<leader>Ts",
