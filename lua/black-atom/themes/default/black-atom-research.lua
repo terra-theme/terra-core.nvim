@@ -19,10 +19,10 @@ M.meta = {
 ---@type BlackAtom.Theme.Primaries
 M.primaries = {
     -- Lows
-    "#222325",
-    "#313533",
-    "#3e4542",
-    "#4a514f",
+    "#1e2229",
+    "#2b3b33",
+    "#384b42",
+    "#425953",
 
     -- Mids
     "#51796d",
@@ -42,13 +42,13 @@ M.palette = {
     black = M.primaries[3],
     gray = M.primaries[6],
 
-    dark_red = "#cc6783",
-    red = "#e186a6",
+    dark_red = "#db577c",
+    red = "#ec7aa2",
 
     dark_green = "#4a9a4a",
     green = "#53aa53",
 
-    dark_yellow = "#59971b",
+    dark_yellow = "#e69d0c",
     yellow = "#66ad1f",
 
     dark_blue = M.primaries[6],

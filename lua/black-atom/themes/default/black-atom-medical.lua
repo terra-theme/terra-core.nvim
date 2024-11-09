@@ -42,14 +42,14 @@ M.palette = {
     black = M.primaries[3],
     gray = M.primaries[6],
 
-    dark_red = "#cc6783",
-    red = "#e186a6",
+    dark_red = "#db577c",
+    red = "#ec7aa2",
 
     dark_green = "#357c35",
     green = "#3c8e3c",
 
-    dark_yellow = "#61890f",
-    yellow = "#71a012",
+    dark_yellow = "#d9950f",
+    yellow = "#60a918",
 
     dark_blue = M.primaries[6],
     blue = M.primaries[5],

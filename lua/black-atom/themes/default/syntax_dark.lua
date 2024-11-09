@@ -6,8 +6,8 @@ return function(primaries, palette)
         variable = {
             default = palette.blue,
             builtin = palette.blue,
-            parameter = palette.dark_yellow,
             member = palette.dark_blue,
+            parameter = palette.dark_yellow,
         },
         property = {
             default = palette.blue,
@@ -19,7 +19,7 @@ return function(primaries, palette)
             escape = palette.red,
         },
         constant = {
-            default = palette.white,
+            default = primaries[10],
             builtin = palette.dark_red,
         },
         module = {

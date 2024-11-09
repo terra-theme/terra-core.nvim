@@ -39,7 +39,7 @@ return function(primaries, palette)
                 main = primaries[5],
                 light = primaries[6],
             },
-            active = palette.cyan,
+            active = palette.red,
             invert = primaries[11],
             neutral = primaries[7],
             diff = {

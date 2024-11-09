@@ -19,10 +19,10 @@ M.meta = {
 ---@type BlackAtom.Theme.Primaries
 M.primaries = {
     -- Lows
-    "#111717",
-    "#151e1c",
-    "#1d2b21",
-    "#253729",
+    "#252e2c",
+    "#2e3f3b",
+    "#384e48",
+    "#425d55",
 
     -- Mids
     "#51796d",
@@ -31,10 +31,10 @@ M.primaries = {
     "#91bcad",
 
     -- Highs
-    "#a4c3b4",
-    "#b3ccc3",
-    "#d1e1d9",
-    "#deebe5",
+    "#9bdebe",
+    "#abe7ca",
+    "#c1efd5",
+    "#cef6de",
 }
 
 ---@type BlackAtom.Theme.Palette
@@ -42,23 +42,23 @@ M.palette = {
     black = M.primaries[3],
     gray = M.primaries[6],
 
-    dark_red = "#e77593",
-    red = "#F49CBB",
+    dark_red = "#ef95ba",
+    red = "#f4acc9",
 
     dark_green = "#5dba5d",
     green = "#80c980",
 
-    dark_yellow = "#8cbf59",
-    yellow = "#a6d675",
+    dark_yellow = "#ddbc5c",
+    yellow = "#a6dc6e",
 
     dark_blue = M.primaries[8],
     blue = M.primaries[10],
 
-    dark_magenta = "#aaa2e0",
-    magenta = "#bdb6e0",
+    dark_magenta = "#a2b0e0",
+    magenta = "#b6bee0",
 
-    dark_cyan = "#4C8577",
-    cyan = "#7eceba",
+    dark_cyan = "#59bf6f",
+    cyan = "#75d689",
 
     light_gray = M.primaries[8],
     white = M.primaries[11],
