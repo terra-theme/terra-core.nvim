@@ -7,7 +7,7 @@
 ---| "black-atom-research"
 ---| "black-atom-jpn-koyo-yoru"
 ---| "black-atom-jpn-koyo-hiru"
----| "black-atom-jpn-nara-yoru"
+---| "black-atom-jpn-tsuki-yoru"
 ---| "terra-spring-day"
 ---| "terra-spring-night"
 ---| "terra-fall-day"
@@ -85,7 +85,6 @@
 ---@field muted BlackAtom.Theme.UI.StateVariant                 De-emphasized content
 ---@field contrast BlackAtom.Theme.UI.StateVariant              Inverted areas
 ---@field disabled BlackAtom.Theme.UI.StateVariant              Disabled elements
----@field cursor BlackAtom.Theme.UI.StateVariant                Cursor indicators
 ---@field visual BlackAtom.Theme.UI.StateVariant                Visual selections
 ---@field search BlackAtom.Theme.UI.StateVariant                Search highlights
 ---@field match BlackAtom.Theme.UI.StateVariant                 Matching elements

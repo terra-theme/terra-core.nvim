@@ -5,8 +5,8 @@ local M = {}
 
 ---@type BlackAtom.Theme.Meta
 M.meta = {
-    key = "black-atom-jpn-nara-yoru",
-    label = "Black Atom - JPN - Nara Yoru",
+    key = "black-atom-jpn-tsuki-yoru",
+    label = "Black Atom - JPN - Edo Yoru",
     collection = {
         key = "jpn",
         label = "JPN",
@@ -19,22 +19,22 @@ M.meta = {
 ---@type BlackAtom.Theme.Primaries
 M.primaries = {
     -- Lows
-    "#18181a",
-    "#222225",
-    "#2f2f35",
-    "#3b3b48",
+    "#070707",
+    "#171717",
+    "#1e1e1e",
+    "#252525",
 
     -- Mids
-    "#444453",
-    "#5d5d71",
-    "#71718b",
-    "#8f8fa3",
+    "#4f4f61",
+    "#69697f",
+    "#828299",
+    "#9d9daf",
 
     -- Highs
     "#ababba",
-    "#b9b9c6",
     "#c7c7d1",
     "#e3e3e8",
+    "#f1f1f3",
 }
 
 ---@type BlackAtom.Theme.Palette
@@ -45,20 +45,20 @@ M.palette = {
     dark_red = "#EA83A5",
     red = "#E29ECA",
 
-    dark_green = "#80af91",
+    dark_green = "#71a584",
     green = "#90B99F",
 
     dark_yellow = "#F5A191",
     yellow = "#E6B99D",
 
-    dark_blue = "#8d99c0",
-    blue = "#9da7c9",
+    dark_blue = M.primaries[7],
+    blue = M.primaries[8],
 
     dark_magenta = "#9789c3",
     magenta = "#ACA1CF",
 
-    dark_cyan = "#6ea4ad",
-    cyan = "#85B5BA",
+    dark_cyan = "#6aaf9e",
+    cyan = "#98cec0",
 
     light_gray = M.primaries[8],
     white = M.primaries[11],
