@@ -1,5 +1,3 @@
-local darken = require("black-atom.lib.color").darken
-
 ---@param primaries BlackAtom.Theme.Primaries
 ---@param palette BlackAtom.Theme.Palette
 ---@return BlackAtom.Theme.UI
@@ -41,7 +39,6 @@ return function(primaries, palette)
             },
             active = palette.yellow,
             invert = primaries[11],
-            -- this is a comment
             neutral = primaries[7],
             diff = {
                 add = palette.green,
