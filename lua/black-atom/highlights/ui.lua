@@ -29,8 +29,8 @@ return {
             TermCursor = { link = "Cursor" },
             TermCursorNC = { link = "Cursor" },
 
-            CursorLine = { bg = ui.bg.active },
-            CursorColumn = { bg = ui.bg.active },
+            CursorLine = { bg = ui.bg.primary.dark },
+            CursorColumn = { bg = ui.bg.primary.dark },
 
             -- Search
             Search = { bg = ui.bg.match.passive },
@@ -44,7 +44,7 @@ return {
 
             -- Line Numbering
             LineNr = { fg = ui.fg.neutral },
-            CursorLineNr = { fg = ui.fg.active, bg = ui.bg.active },
+            CursorLineNr = { fg = ui.fg.active, bg = ui.bg.primary.dark },
 
             -- Diff
             DiffAdd = { fg = ui.fg.invert, bg = ui.bg.diff.add },
