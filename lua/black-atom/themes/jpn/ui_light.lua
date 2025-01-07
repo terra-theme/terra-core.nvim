@@ -14,7 +14,7 @@ return function(primaries, palette)
                 main = primaries[8],
                 light = primaries[9],
             },
-            active = primaries[5],
+            active = primaries[9],
             match = {
                 active = palette.magenta,
                 passive = primaries[8],

@@ -19,7 +19,7 @@ M.meta = {
 ---@type BlackAtom.Theme.Primaries
 M.primaries = {
     -- Lows
-    "#070707",
+    "#121212",
     "#171717",
     "#1e1e1e",
     "#252525",
