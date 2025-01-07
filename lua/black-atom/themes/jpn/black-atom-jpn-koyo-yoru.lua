@@ -21,8 +21,8 @@ M.primaries = {
     -- Lows
     "#231f2a",
     "#2b2733",
-    "#443d53",
-    "#524b62",
+    "#363041",
+    "#3f394b",
 
     -- Mids
     "#605872",
@@ -31,16 +31,16 @@ M.primaries = {
     "#b0aabc",
 
     -- Highs
-    "#dcd2be",
-    "#eadfc9",
-    "#f5ebd7",
-    "#faf5eb",
+    "#cab9af",
+    "#d2c4bb",
+    "#dacec7",
+    "#ded4cd",
 }
 
 ---@type BlackAtom.Theme.Palette
 M.palette = {
     black = M.primaries[3],
-    gray = M.primaries[5],
+    gray = M.primaries[6],
 
     dark_red = "#c2564b",
     red = "#d6675c",
