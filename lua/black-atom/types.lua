@@ -8,6 +8,7 @@
 ---| "black-atom-jpn-koyo-yoru"
 ---| "black-atom-jpn-koyo-hiru"
 ---| "black-atom-jpn-tsuki-yoru"
+---| "black-atom-jpn-yubari-night"
 ---| "terra-spring-day"
 ---| "terra-spring-night"
 ---| "terra-fall-day"
