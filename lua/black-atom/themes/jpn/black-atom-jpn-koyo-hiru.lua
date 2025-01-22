@@ -31,10 +31,10 @@ M.primaries = {
     "#b0aabc",
 
     -- Highs
-    "#cab9af",
-    "#d2c4bb",
-    "#dacec7",
-    "#ded4cd",
+    "#d1b9a8",
+    "#dcc9bc",
+    "#e8d5c8",
+    "#f6e2d4",
 }
 
 ---@type BlackAtom.Theme.Palette
