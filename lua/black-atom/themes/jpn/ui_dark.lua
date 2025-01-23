@@ -2,6 +2,7 @@
 ---@param palette BlackAtom.Theme.Palette
 ---@return BlackAtom.Theme.UI
 return function(primaries, palette)
+    ---@type BlackAtom.Theme.UI
     return {
         bg = {
             primary = {
