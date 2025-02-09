@@ -11,7 +11,7 @@ return {
             CmpItemAbbrDeprecated = { fg = p.light_gray, strikethrough = true },
             CmpItemAbbrMatch = { fg = p.cyan },
             CmpItemAbbrMatchFuzzy = { fg = p.cyan, underline = true },
-            CmpItemMenu = { fg = colors.ui.fg.secondary.main },
+            CmpItemMenu = { fg = colors.ui.fg.primary.main },
             CmpItemKind = { fg = p.magenta },
         }
 

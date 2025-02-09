@@ -9,7 +9,6 @@ return {
 
         local fg = colors.ui.fg
         local fg_main = fg.primary.main
-        local fg_secondary = fg.secondary.main
         local fg_neutral = fg.neutral
         local fg_active = fg.active
 
@@ -25,7 +24,7 @@ return {
         local preview_bg = bg_main
         local preview_normal_style = { fg = fg_main, bg = preview_bg }
         local list_bg = bg_dark
-        local list_normal_style = { fg = fg_secondary, bg = list_bg }
+        local list_normal_style = { fg = fg_active, bg = list_bg }
 
         ---@type BlackAtom.Highlights
         return {
