@@ -9,6 +9,7 @@
 ---| "black-atom-jpn-koyo-hiru"
 ---| "black-atom-jpn-tsuki-yoru"
 ---| "black-atom-mono-one-dark"
+---| "black-atom-crbn-supr"
 ---| "terra-spring-day"
 ---| "terra-spring-night"
 ---| "terra-fall-day"
@@ -23,6 +24,7 @@
 ---| "terra"
 ---| "jpn"
 ---| "mono"
+---| "crbn"
 
 ---@class BlackAtom.HighlightDefinition
 ---@field fg?                                                   string

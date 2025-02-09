@@ -65,9 +65,9 @@ local highlight_map_extension = {
                 sp = colors.palette.yellow,
             },
 
-            LspReferenceText = { bg = colors.ui.bg.primary.light },
-            LspReferenceWrite = { bg = colors.ui.bg.primary.light },
-            LspReferenceRead = { bg = colors.ui.bg.primary.light },
+            LspReferenceText = { underline = true },
+            LspReferenceWrite = { underline = true },
+            LspReferenceRead = { underline = true },
 
             LspCodeLens = { fg = colors.palette.gray },
             LspCodeLensSeparator = { fg = colors.palette.gray },

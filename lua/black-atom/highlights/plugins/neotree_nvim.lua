@@ -12,7 +12,7 @@ return {
         ---@type BlackAtom.Highlights
         return {
             NeoTreeNormal = { fg = ui.fg.primary.main, bg = bg_dark },
-            NeoTreeNormalNC = { fg = ui.fg.secondary.main, bg = bg_dark },
+            NeoTreeNormalNC = { fg = ui.fg.neutral, bg = bg_dark },
             NeoTreeWinSeparator = { fg = bg_main },
             NeoTreeCursorLine = { bg = bg_main },
             NeoTreeDotfile = { fg = ui.fg.neutral },
