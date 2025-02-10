@@ -5,8 +5,8 @@ local M = {}
 
 ---@type BlackAtom.Theme.Meta
 M.meta = {
-    key = "terra-fall-night",
-    label = "Terra Fall Night",
+    key = "terra-winter-night",
+    label = "Terra Winter Night",
     collection = {
         key = "terra",
         label = "Terra",
@@ -19,28 +19,28 @@ M.meta = {
 ---@type BlackAtom.Theme.Primaries
 M.primaries = {
     -- Lows
-    "#0e0f10",
-    "#17181a",
-    "#1d1e20",
+    "#18191b",
     "#212225",
+    "#2c2d30",
+    "#34363b",
 
     -- Mids
-    "#3a3d47",
-    "#505563",
-    "#575f72",
-    "#6d7391",
+    "#454955",
+    "#5b6171",
+    "#707a92",
+    "#8a8fa7",
 
     -- Highs
-    "#97a2b6",
-    "#a0acc5",
-    "#bcc9db",
-    "#c9d7e7",
+    "#a6afc1",
+    "#c0c8d8",
+    "#cdd6e4",
+    "#dbe4ef",
 }
 
 ---@type BlackAtom.Theme.Palette
 M.palette = {
     black = M.primaries[3],
-    gray = M.primaries[5],
+    gray = M.primaries[6],
 
     dark_red = "#a65959",
     red = "#b86a6a",
@@ -51,8 +51,8 @@ M.palette = {
     dark_yellow = "#eba778",
     yellow = "#d3b17a",
 
-    dark_blue = "#5c6a8a",
-    blue = "#909dbe",
+    dark_blue = "#94acb8",
+    blue = "#8c9bc2",
 
     dark_magenta = "#b793b7",
     magenta = "#c8adc8",

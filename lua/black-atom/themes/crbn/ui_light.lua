@@ -6,16 +6,11 @@ return function(primaries, palette)
     return {
         bg = {
             primary = {
-                dark = primaries[10],
-                main = primaries[11],
-                light = primaries[12],
+                dark = primaries[8], -- secondary
+                main = primaries[9], -- primary
+                light = primaries[7], -- tertiary
             },
-            secondary = {
-                dark = primaries[7],
-                main = primaries[8],
-                light = primaries[9],
-            },
-            active = primaries[9],
+            active = primaries[7],
             match = {
                 active = palette.magenta,
                 passive = primaries[8],
@@ -33,14 +28,9 @@ return function(primaries, palette)
                 main = primaries[2],
                 light = primaries[3],
             },
-            secondary = {
-                dark = primaries[4],
-                main = primaries[5],
-                light = primaries[6],
-            },
             active = palette.yellow,
-            invert = primaries[11],
-            neutral = primaries[7],
+            invert = primaries[8],
+            neutral = primaries[4],
             diff = {
                 add = palette.green,
                 delete = palette.red,

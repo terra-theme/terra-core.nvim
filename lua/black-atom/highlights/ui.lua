@@ -23,20 +23,28 @@ return {
             FloatTitle = { fg = ui.fg.active, bg = ui.bg.primary.dark },
 
             -- Cursor & Matching
-            Cursor = { reverse = true },
-            CursorIM = { reverse = true },
-            CursorLine = { bg = ui.bg.primary.dark },
+            Cursor = { fg = ui.fg.invert, bg = ui.fg.active },
+            CursorIM = { link = "Cursor" },
+            lCursor = { link = "Cursor" },
+            TermCursor = { link = "Cursor" },
+            TermCursorNC = { link = "Cursor" },
+
+            CursorLine = { bg = ui.bg.active },
+            CursorColumn = { bg = ui.bg.active },
 
             -- Search
             Search = { bg = ui.bg.match.passive },
             IncSearch = { bg = ui.bg.match.passive },
-            CurSearch = { fg = ui.fg.active, bg = ui.bg.match.passive, bold = true },
-            Substitute = { link = "CurSearch" },
+            CurSearch = { fg = ui.fg.invert, bg = ui.fg.active, bold = true },
+            Substitute = { fg = ui.fg.invert, bg = ui.fg.active, bold = true },
             MatchParen = { bg = ui.bg.match.passive },
+
+            Visual = { bg = ui.bg.match.passive },
+            VisualNOS = { link = "Visual" },
 
             -- Line Numbering
             LineNr = { fg = ui.fg.neutral },
-            CursorLineNr = { fg = ui.fg.active, bg = ui.bg.primary.dark },
+            CursorLineNr = { fg = ui.fg.active, bg = ui.bg.active },
 
             -- Diff
             DiffAdd = { fg = ui.fg.invert, bg = ui.bg.diff.add },
@@ -85,14 +93,11 @@ return {
             Folded = { fg = ui.fg.neutral, bg = ui.bg.primary.dark },
             FoldColumn = { fg = ui.fg.neutral },
             SignColumn = { fg = ui.fg.neutral },
-            CursorColumn = { bg = ui.bg.primary.dark },
             ColorColumn = { bg = ui.bg.primary.dark },
 
             -- Others
             Directory = { fg = ui.fg.primary.main, bold = true },
             Conceal = { fg = ui.fg.neutral },
-            Visual = { bg = ui.bg.match.passive },
-            VisualNOS = { link = "Visual" },
             QuickFixLine = { fg = ui.fg.active, bg = ui.bg.primary.light },
         }
 

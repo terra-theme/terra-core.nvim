@@ -11,7 +11,7 @@ return {
         ---@type BlackAtom.Highlights
         return {
             FzfLuaNormal = { fg = fg.primary.main, bg = bg_dark },
-            FzfLuaTitle = { fg = fg.active },
+            FzfLuaTitle = { fg = fg.active, bg = bg_dark },
             FzfLuaBorder = { link = "FloatBorder" },
             FzfLuaPreviewBorder = { link = "FloatBorder" },
             FzfLuaCursorLine = { bg = bg.primary.main },
