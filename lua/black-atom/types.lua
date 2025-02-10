@@ -9,6 +9,7 @@
 ---| "black-atom-jpn-koyo-hiru"
 ---| "black-atom-jpn-tsuki-yoru"
 ---| "black-atom-mono-one-dark"
+---| "black-atom-crbn-null"
 ---| "black-atom-crbn-supr"
 ---| "terra-spring-day"
 ---| "terra-spring-night"

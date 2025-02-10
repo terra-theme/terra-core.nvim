@@ -2,13 +2,13 @@ local M = {}
 
 ---@type BlackAtom.Theme.Meta
 M.meta = {
-    key = "black-atom-crbn-supr",
-    label = "Black Atom - CRBN [SUPR]",
+    key = "black-atom-crbn-null",
+    label = "Black Atom - CRBN [NULL]",
     collection = {
         key = "crbn",
         label = "CRBN",
     },
-    appearance = "light",
+    appearance = "dark",
     icon = " 󰛸 ",
     status = "release",
 }
@@ -16,19 +16,19 @@ M.meta = {
 ---@type BlackAtom.Theme.Primaries
 M.primaries = {
     -- Lows
-    "#1d2730",
-    "#344859",
-    "#415a70",
+    "#202933",
+    "#2e3e4d",
+    "#3c5369",
 
     -- Mids
-    "#6c7f92",
-    "#8999a8",
-    "#a2b5c5",
+    "#5c6d7e",
+    "#788a9c",
+    "#8ea6b9",
 
     -- Highs
-    "#e2e6ea",
-    "#f0f3f6",
-    "#feffff",
+    "#d3d9df",
+    "#e0e6ec",
+    "#ebf2f8",
 }
 
 ---@type BlackAtom.Theme.Palette
@@ -36,17 +36,17 @@ M.palette = {
     black = M.primaries[2],
     gray = M.primaries[4],
 
-    dark_red = "#f2280d",
-    red = "#ff4b33",
+    dark_red = "#f33e25",
+    red = "#ff624d",
 
-    dark_green = "#59cc33",
-    green = "#7ad65c",
+    dark_green = "#6ad147",
+    green = "#8bdb70",
 
-    dark_yellow = "#ff4302",
-    yellow = "#FF6833",
+    dark_yellow = "#ee9366",
+    yellow = "#ff8357",
 
-    dark_blue = "#1661EB",
-    blue = "#337AFF",
+    dark_blue = "#4481ef",
+    blue = "#679cff",
 
     dark_magenta = M.primaries[5],
     magenta = M.primaries[6],
@@ -54,15 +54,15 @@ M.palette = {
     dark_cyan = M.primaries[3],
     cyan = M.primaries[2],
 
-    light_gray = M.primaries[7],
+    dark_gray = M.primaries[7],
     white = M.primaries[9],
 }
 
 ---@type BlackAtom.Theme.Syntax
-M.syntax = require("black-atom.themes.crbn.syntax_light")(M.primaries, M.palette)
+M.syntax = require("black-atom.themes.crbn.syntax_dark")(M.primaries, M.palette)
 
 ---@typ BlackAtom.Theme.UI
-M.ui = require("black-atom.themes.crbn.ui_light")(M.primaries, M.palette)
+M.ui = require("black-atom.themes.crbn.ui_dark")(M.primaries, M.palette)
 
 ---@type BlackAtom.Theme.Colors
 M.colors = {
